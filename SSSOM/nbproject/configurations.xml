@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de código-fonte"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="CImg" displayName="CImg" projectFiles="true">
+      <itemPath>../Libs/CImg/CImg.h</itemPath>
+      <itemPath>../Libs/CImg/DisplayMap.cpp</itemPath>
+      <itemPath>../Libs/CImg/DisplayMap.h</itemPath>
+      <itemPath>../Libs/CImg/DisplaySSSOM.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="Cluster" displayName="Cluster" projectFiles="true">
+      <itemPath>../Libs/Cluster/ClusteringMetrics.cpp</itemPath>
+      <itemPath>../Libs/Cluster/ClusteringMetrics.h</itemPath>
+      <itemPath>../Libs/Cluster/ClusteringSOM.cpp</itemPath>
+      <itemPath>../Libs/Cluster/ClusteringSOM.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="Data" displayName="Data" projectFiles="true">
+      <itemPath>../Libs/Data/ArffData.cpp</itemPath>
+      <itemPath>../Libs/Data/ArffData.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="Debug" displayName="Debug" projectFiles="true">
+      <itemPath>../Libs/Debug/DebugOut.cpp</itemPath>
+      <itemPath>../Libs/Debug/DebugOut.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="Defines" displayName="Defines" projectFiles="true">
+      <itemPath>../Libs/Defines/Defines.cpp</itemPath>
+      <itemPath>../Libs/Defines/Defines.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="MatMatrix" displayName="MatMatrix" projectFiles="true">
+      <itemPath>../Libs/MatMatrix/MatAlgorithms.h</itemPath>
+      <itemPath>../Libs/MatMatrix/MatFunctions.h</itemPath>
+      <itemPath>../Libs/MatMatrix/MatMatrix.h</itemPath>
+      <itemPath>../Libs/MatMatrix/MatUtils.cpp</itemPath>
+      <itemPath>../Libs/MatMatrix/MatUtils.h</itemPath>
+      <itemPath>../Libs/MatMatrix/MatVector.h</itemPath>
+      <itemPath>../Libs/MatMatrix/MatVectorList.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SOM" displayName="SOM" projectFiles="true">
+      <itemPath>../Libs/SOM/DSNode.cpp</itemPath>
+      <itemPath>../Libs/SOM/DSNode.h</itemPath>
+      <itemPath>../Libs/SOM/Mesh.h</itemPath>
+      <itemPath>../Libs/SOM/NodeW.cpp</itemPath>
+      <itemPath>../Libs/SOM/NodeW.h</itemPath>
+      <itemPath>../Libs/SOM/SOM.h</itemPath>
+      <itemPath>../Libs/SOM/SSSOM.h</itemPath>
+      <itemPath>../Libs/SOM/SSSOMNode.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../Libs</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>../Libs/CImg</pElem>
+            <pElem>../Libs/Cluster</pElem>
+            <pElem>../Libs/Data</pElem>
+            <pElem>../Libs/Debug</pElem>
+            <pElem>../Libs/Defines</pElem>
+            <pElem>../Libs/MatMatrix</pElem>
+            <pElem>../Libs/SOM</pElem>
+          </incDir>
+          <commandLine>-Wno-comment -std=c++11</commandLine>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+          </linkerLibItems>
+          <commandLine>-L/usr/X11/lib -static-libstdc++ -lX11 -lpthread</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../Libs/CImg/CImg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/CImg/DisplayMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/CImg/DisplayMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/CImg/DisplaySSSOM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/Cluster/ClusteringMetrics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Libs/Cluster/ClusteringMetrics.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Libs/Cluster/ClusteringSOM.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/Cluster/ClusteringSOM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/Data/ArffData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/Data/ArffData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/Debug/DebugOut.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/Debug/DebugOut.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/Defines/Defines.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/Defines/Defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatAlgorithms.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatMatrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatVectorList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/DSNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/DSNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/Mesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/NodeW.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/NodeW.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/SOM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/SSSOM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/SSSOMNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>../SOM</pElem>
+            <pElem>../Cluster</pElem>
+            <pElem>../../../Libs/Data</pElem>
+            <pElem>../../../Libs/Debug</pElem>
+            <pElem>../../../Libs/Defines</pElem>
+            <pElem>../../../Libs/MatMatrix</pElem>
+            <pElem>../../../Libs/Parameters</pElem>
+            <pElem>../../../Libs/CImg</pElem>
+          </incDir>
+          <commandLine>-Wno-comment -std=c++11</commandLine>
+        </ccTool>
+        <linkerTool>
+          <commandLine>-L/usr/X11/lib -static-libstdc++ -lX11 -lpthread</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../Libs/CImg/CImg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/CImg/DisplayMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/CImg/DisplayMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/CImg/DisplaySSSOM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/Cluster/ClusteringMetrics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Libs/Cluster/ClusteringMetrics.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Libs/Cluster/ClusteringSOM.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/Cluster/ClusteringSOM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/Data/ArffData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/Data/ArffData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/Debug/DebugOut.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/Debug/DebugOut.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/Defines/Defines.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/Defines/Defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatAlgorithms.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatMatrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatVectorList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/DSNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/DSNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/Mesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/NodeW.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/NodeW.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/SOM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/SSSOM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/SSSOMNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_x64" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>../SOM</pElem>
+            <pElem>../Cluster</pElem>
+            <pElem>../../../Libs/Data</pElem>
+            <pElem>../../../Libs/Debug</pElem>
+            <pElem>../../../Libs/Defines</pElem>
+            <pElem>../../../Libs/MatMatrix</pElem>
+            <pElem>../../../Libs/Parameters</pElem>
+            <pElem>../../../Libs/CImg</pElem>
+          </incDir>
+          <commandLine>-m64 -g -Wno-comment</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/larfdssom</output>
+          <commandLine>-m64 -L/usr/X11/lib -static-libstdc++</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../Libs/CImg/CImg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/CImg/DisplayMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/CImg/DisplayMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/CImg/DisplaySSSOM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/Cluster/ClusteringMetrics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Libs/Cluster/ClusteringMetrics.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Libs/Cluster/ClusteringSOM.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/Cluster/ClusteringSOM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/Data/ArffData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/Data/ArffData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/Debug/DebugOut.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/Debug/DebugOut.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/Defines/Defines.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/Defines/Defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatAlgorithms.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatMatrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/MatMatrix/MatVectorList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/DSNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/DSNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/Mesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/NodeW.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/NodeW.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/SOM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/SSSOM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Libs/SOM/SSSOMNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
