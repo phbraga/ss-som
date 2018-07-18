@@ -74,52 +74,52 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sssom: ${OBJECTFILES}
 ${OBJECTDIR}/_ext/a341d9b2/DisplayMap.o: ../Libs/CImg/DisplayMap.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/a341d9b2
 	${RM} "$@.d"
-	$(COMPILE.cc) -O3 -I../SOM -I../Cluster -I../../../Libs/Data -I../../../Libs/Debug -I../../../Libs/Defines -I../../../Libs/MatMatrix -I../../../Libs/Parameters -I../../../Libs/CImg -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/a341d9b2/DisplayMap.o ../Libs/CImg/DisplayMap.cpp
+	$(COMPILE.cc) -O3 -I../Libs/SOM -I../Libs/CImg -I../Libs/Cluster -I../Libs/Data -I../Libs/Debug -I../Libs/Defines -I../Libs/MatMatrix -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/a341d9b2/DisplayMap.o ../Libs/CImg/DisplayMap.cpp
 
 ${OBJECTDIR}/_ext/a845ff68/ClusteringMetrics.o: ../Libs/Cluster/ClusteringMetrics.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/a845ff68
 	${RM} "$@.d"
-	$(COMPILE.cc) -O3 -I../SOM -I../Cluster -I../../../Libs/Data -I../../../Libs/Debug -I../../../Libs/Defines -I../../../Libs/MatMatrix -I../../../Libs/Parameters -I../../../Libs/CImg -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/a845ff68/ClusteringMetrics.o ../Libs/Cluster/ClusteringMetrics.cpp
+	$(COMPILE.cc) -O3 -I../Libs/SOM -I../Libs/CImg -I../Libs/Cluster -I../Libs/Data -I../Libs/Debug -I../Libs/Defines -I../Libs/MatMatrix -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/a845ff68/ClusteringMetrics.o ../Libs/Cluster/ClusteringMetrics.cpp
 
 ${OBJECTDIR}/_ext/a845ff68/ClusteringSOM.o: ../Libs/Cluster/ClusteringSOM.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/a845ff68
 	${RM} "$@.d"
-	$(COMPILE.cc) -O3 -I../SOM -I../Cluster -I../../../Libs/Data -I../../../Libs/Debug -I../../../Libs/Defines -I../../../Libs/MatMatrix -I../../../Libs/Parameters -I../../../Libs/CImg -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/a845ff68/ClusteringSOM.o ../Libs/Cluster/ClusteringSOM.cpp
+	$(COMPILE.cc) -O3 -I../Libs/SOM -I../Libs/CImg -I../Libs/Cluster -I../Libs/Data -I../Libs/Debug -I../Libs/Defines -I../Libs/MatMatrix -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/a845ff68/ClusteringSOM.o ../Libs/Cluster/ClusteringSOM.cpp
 
 ${OBJECTDIR}/_ext/a342a8fc/ArffData.o: ../Libs/Data/ArffData.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/a342a8fc
 	${RM} "$@.d"
-	$(COMPILE.cc) -O3 -I../SOM -I../Cluster -I../../../Libs/Data -I../../../Libs/Debug -I../../../Libs/Defines -I../../../Libs/MatMatrix -I../../../Libs/Parameters -I../../../Libs/CImg -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/a342a8fc/ArffData.o ../Libs/Data/ArffData.cpp
+	$(COMPILE.cc) -O3 -I../Libs/SOM -I../Libs/CImg -I../Libs/Cluster -I../Libs/Data -I../Libs/Debug -I../Libs/Defines -I../Libs/MatMatrix -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/a342a8fc/ArffData.o ../Libs/Data/ArffData.cpp
 
 ${OBJECTDIR}/_ext/c5140741/DebugOut.o: ../Libs/Debug/DebugOut.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/c5140741
 	${RM} "$@.d"
-	$(COMPILE.cc) -O3 -I../SOM -I../Cluster -I../../../Libs/Data -I../../../Libs/Debug -I../../../Libs/Defines -I../../../Libs/MatMatrix -I../../../Libs/Parameters -I../../../Libs/CImg -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/c5140741/DebugOut.o ../Libs/Debug/DebugOut.cpp
+	$(COMPILE.cc) -O3 -I../Libs/SOM -I../Libs/CImg -I../Libs/Cluster -I../Libs/Data -I../Libs/Debug -I../Libs/Defines -I../Libs/MatMatrix -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/c5140741/DebugOut.o ../Libs/Debug/DebugOut.cpp
 
 ${OBJECTDIR}/_ext/d0624b86/Defines.o: ../Libs/Defines/Defines.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/d0624b86
 	${RM} "$@.d"
-	$(COMPILE.cc) -O3 -I../SOM -I../Cluster -I../../../Libs/Data -I../../../Libs/Debug -I../../../Libs/Defines -I../../../Libs/MatMatrix -I../../../Libs/Parameters -I../../../Libs/CImg -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/d0624b86/Defines.o ../Libs/Defines/Defines.cpp
+	$(COMPILE.cc) -O3 -I../Libs/SOM -I../Libs/CImg -I../Libs/Cluster -I../Libs/Data -I../Libs/Debug -I../Libs/Defines -I../Libs/MatMatrix -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/d0624b86/Defines.o ../Libs/Defines/Defines.cpp
 
 ${OBJECTDIR}/_ext/8bffeb2f/MatUtils.o: ../Libs/MatMatrix/MatUtils.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/8bffeb2f
 	${RM} "$@.d"
-	$(COMPILE.cc) -O3 -I../SOM -I../Cluster -I../../../Libs/Data -I../../../Libs/Debug -I../../../Libs/Defines -I../../../Libs/MatMatrix -I../../../Libs/Parameters -I../../../Libs/CImg -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/8bffeb2f/MatUtils.o ../Libs/MatMatrix/MatUtils.cpp
+	$(COMPILE.cc) -O3 -I../Libs/SOM -I../Libs/CImg -I../Libs/Cluster -I../Libs/Data -I../Libs/Debug -I../Libs/Defines -I../Libs/MatMatrix -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/8bffeb2f/MatUtils.o ../Libs/MatMatrix/MatUtils.cpp
 
 ${OBJECTDIR}/_ext/15c88dff/DSNode.o: ../Libs/SOM/DSNode.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/15c88dff
 	${RM} "$@.d"
-	$(COMPILE.cc) -O3 -I../SOM -I../Cluster -I../../../Libs/Data -I../../../Libs/Debug -I../../../Libs/Defines -I../../../Libs/MatMatrix -I../../../Libs/Parameters -I../../../Libs/CImg -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/15c88dff/DSNode.o ../Libs/SOM/DSNode.cpp
+	$(COMPILE.cc) -O3 -I../Libs/SOM -I../Libs/CImg -I../Libs/Cluster -I../Libs/Data -I../Libs/Debug -I../Libs/Defines -I../Libs/MatMatrix -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/15c88dff/DSNode.o ../Libs/SOM/DSNode.cpp
 
 ${OBJECTDIR}/_ext/15c88dff/NodeW.o: ../Libs/SOM/NodeW.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/15c88dff
 	${RM} "$@.d"
-	$(COMPILE.cc) -O3 -I../SOM -I../Cluster -I../../../Libs/Data -I../../../Libs/Debug -I../../../Libs/Defines -I../../../Libs/MatMatrix -I../../../Libs/Parameters -I../../../Libs/CImg -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/15c88dff/NodeW.o ../Libs/SOM/NodeW.cpp
+	$(COMPILE.cc) -O3 -I../Libs/SOM -I../Libs/CImg -I../Libs/Cluster -I../Libs/Data -I../Libs/Debug -I../Libs/Defines -I../Libs/MatMatrix -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/15c88dff/NodeW.o ../Libs/SOM/NodeW.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O3 -I../SOM -I../Cluster -I../../../Libs/Data -I../../../Libs/Debug -I../../../Libs/Defines -I../../../Libs/MatMatrix -I../../../Libs/Parameters -I../../../Libs/CImg -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
+	$(COMPILE.cc) -O3 -I../Libs/SOM -I../Libs/CImg -I../Libs/Cluster -I../Libs/Data -I../Libs/Debug -I../Libs/Defines -I../Libs/MatMatrix -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
 
 # Subprojects
 .build-subprojects:
