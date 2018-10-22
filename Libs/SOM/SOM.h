@@ -185,7 +185,7 @@ public:
         return (it == Mesh<TNode>::meshNodeSet.end());
     }    
     
-    virtual bool isNoise(const TVector &w) {
+    virtual bool isNoise(float activation) {
         return false;
     }
     

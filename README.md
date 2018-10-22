@@ -1,5 +1,10 @@
 # SS-SOM
-The model Semi-Supervised Self-Organizing Map (SS-SOM), published in the World Conference on Computational Intelligence (WCCI), precisely at the International Joint Conference on Neural Networks (IJCNN) in 2018. It is a small part of the [Prototype Based Machine Learning (PBML)](https://github.com/hfbassani/pbml/) project. The SS-SOM is also available [there](https://github.com/hfbassani/pbml/blob/master/phmb4/Models).
+
+A Semi-Supervised Self-Organizing Map for Clustering and Classification
+
+Sample code to the model proposed in https://ieeexplore.ieee.org/abstract/document/8489675
+
+It was presented in the World Conference on Computational Intelligence (WCCI), precisely at the International Joint Conference on Neural Networks (IJCNN), in 2018. It is a small part of the [Prototype Based Machine Learning (PBML)](https://github.com/hfbassani/pbml/) project. The SS-SOM is also available [here](https://github.com/hfbassani/pbml/blob/master/phmb4/Models).
 
 ### Requirements:
 
@@ -7,25 +12,27 @@ The model Semi-Supervised Self-Organizing Map (SS-SOM), published in the World C
 
 2. You must have a parameters file:
 
-   To run SS-SOM, there is 11 parameters to set:
+  To run SS-SOM, there is 11 parameters to set:
 
-   1. a_t
-   2. lp
-   3. dsbeta
-   4. age_wins
-   5. e_b
-   6. e_n
-   7. epsilon_ds
-   8. minwd
-   9. epochs
-   10. seed
-   11. push_rate
+   - a_t
+   - lp
+   - dsbeta
+   - age_wins
+   - e_b
+   - e_n
+   - epsilon_ds
+   - minwd
+   - epochs
+   - seed
+   - push_rate<br/><br/>
 
-   You can follow [this](https://github.com/hfbassani/pbml/blob/master/phmb4/Parameters/SSSOM_0) example, where the first eleven rows represent the first set of parameters, the next 11 rows the second set and so on.
+   You can follow [this](https://github.com/hfbassani/pbml/blob/master/phmb4/Parameters/sssom_0) example, where the first eleven rows represent the first set of parameters, the next 11 rows the second set and so on.
+
+   Also, it is important to update the constant _noClass_, if necessary. The default value is 999.
 
 ### Parameters Generation
 
-See [params-gen](https://github.com/hfbassani/pbml/tree/master/params-gen/)
+The sample code to generate the parameters with LHS, as in the paper, is available [here](https://github.com/hfbassani/pbml/tree/master/params-gen/).
 
 ### Running:
 
@@ -44,23 +51,21 @@ See [params-gen](https://github.com/hfbassani/pbml/tree/master/params-gen/)
 
   -p: this flag is used to get the path to the parameters file
 
-  -s[optional]: this flag disables the subspace clustering mode. With this flag, each sample will be assigned to a single cluster.
-
-  -s[optional]: this flag is used to define if the training and test experiments will be run.
-
   -f[optional]: this flag disables the noisy filtering and all samples will be assigned to a cluster.
 
   -n[optional]: this flag is used to define if the data needs to be normalized.
 
+  -c[optional]: this flag is used to execute a complete train and test experiment.
+
   ...and more.
   ```
-  For example, to run experiments for [these](https://github.com/hfbassani/pbml/tree/master/Datasets/Realdata) real datasets, you must use -s and -f flags, so that the arguments will be as follows:
+  For example, to run experiments for [these](https://github.com/hfbassani/pbml/tree/master/Datasets/Realdata) real datasets the arguments will be as follows:
 
   ```
-  -i ../../Parameters/inputPathsTrain01 -t ../../Parameters/inputPathsTest -r pray5-l01/ -p ../../Parameters/pray5_0 -s -c
+  -i ../../Parameters/inputPathsTrain01 -t ../../Parameters/inputPathsTest -r sssom-l01/ -p ../../Parameters/sssom_0 -c
   ```
 
-  After that, you can run your metrics based on the results file.
+  After that, you can evaluate the results folder files.
 
 ### Metrics Calculation
 
