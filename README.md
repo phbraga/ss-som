@@ -12,7 +12,7 @@ It was presented in the World Conference on Computational Intelligence (WCCI), p
 
 2. You must have a parameters file:
 
-  To run SS-SOM, there is 11 parameters to set:
+  To run SS-SOM, there are 11 parameters to set:
 
    - a_t
    - lp
@@ -45,7 +45,7 @@ The sample code to generate the parameters with LHS, as in the paper, is availab
   ```
   -i: this flag is used to get the path to the file containing all the paths to the datasets to be used.
 
-  -r: this flag is used to get the path of the folder with the test files
+  -t: this flag is used to get the path of the folder with the test files
 
   -r: this flag is used to get the path to the results folder
 
