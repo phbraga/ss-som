@@ -6,6 +6,21 @@ Sample code to the model proposed in https://ieeexplore.ieee.org/abstract/docume
 
 It was presented in the World Conference on Computational Intelligence (WCCI), precisely at the International Joint Conference on Neural Networks (IJCNN), in 2018. It is a small part of the [Prototype Based Machine Learning (PBML)](https://github.com/hfbassani/pbml/) project. The SS-SOM is also available [here](https://github.com/hfbassani/pbml/blob/master/phmb4/Models).
 
+### Cite:
+
+Please cite our paper if you use this code in your own work:
+
+```bibtex
+@inproceedings{braga2018semi,
+  title         = {A Semi-Supervised Self-Organizing Map for Clustering and Classification},
+  author        = {Braga, Pedro HM and Bassani, Hansenclever F},
+  booktitle     = {2018 International Joint Conference on Neural Networks (IJCNN)},
+  pages         = {1--8},
+  year          = {2018},
+  organization  = {IEEE}
+}
+```
+
 ### Requirements:
 
 1. You must have a file containing all the paths to the datasets you want to use. You can follow [this](https://github.com/hfbassani/pbml/blob/master/phmb4/Parameters/inputPathsTrain) example.
