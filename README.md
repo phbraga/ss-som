@@ -4,7 +4,7 @@ A Semi-Supervised Self-Organizing Map for Clustering and Classification
 
 Sample code to the model proposed in https://ieeexplore.ieee.org/abstract/document/8489675
 
-It was presented in the World Conference on Computational Intelligence (WCCI), precisely at the International Joint Conference on Neural Networks (IJCNN), in 2018. It is a small part of the [Prototype Based Machine Learning (PBML)](https://github.com/hfbassani/pbml/) project. The SS-SOM is also available [here](https://github.com/hfbassani/pbml/blob/master/phmb4/Models).
+It was presented in the 2018 World Conference on Computational Intelligence (WCCI), precisely at the International Joint Conference on Neural Networks (IJCNN), in Rio de Janeiro, Brazil.
 
 ### Cite:
 
